@@ -26,8 +26,8 @@ var context = {
             context.succeed(result);
         }
     }
-}
+};
 
 // call handler
-var app = require('./app');
-app.handler(event, context);
+var index = require('./index');
+index.handler(event, context);
